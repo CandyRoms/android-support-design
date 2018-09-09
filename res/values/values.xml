@@ -214,7 +214,6 @@
     </style>
     <style name="Theme.Design" parent="Theme.AppCompat">
         <item name="textColorError">?attr/colorError</item>
-        <item name="coordinatorLayoutStyle">@style/Widget.Design.CoordinatorLayout</item>
     </style>
     <style name="Theme.Design.BottomSheetDialog" parent="Theme.AppCompat.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -223,7 +222,6 @@
     </style>
     <style name="Theme.Design.Light" parent="Theme.AppCompat.Light">
         <item name="textColorError">?attr/colorError</item>
-        <item name="coordinatorLayoutStyle">@style/Widget.Design.CoordinatorLayout</item>
     </style>
     <style name="Theme.Design.Light.BottomSheetDialog" parent="Theme.AppCompat.Light.Dialog">
         <item name="android:windowBackground">@android:color/transparent</item>
@@ -254,9 +252,6 @@
     <style name="Widget.Design.CollapsingToolbar" parent="android:Widget">
         <item name="expandedTitleMargin">32dp</item>
         <item name="statusBarScrim">?attr/colorPrimaryDark</item>
-    </style>
-    <style name="Widget.Design.CoordinatorLayout" parent="@style/Widget.Support.CoordinatorLayout">
-        <item name="statusBarBackground">?attr/colorPrimaryDark</item>
     </style>
     <style name="Widget.Design.FloatingActionButton" parent="android:Widget">
         <item name="android:background">@drawable/design_fab_background</item>
